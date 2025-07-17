@@ -194,6 +194,9 @@ defaults:
       permalink: /:title/
 
 sass:
+  load_paths:
+    - _sass
+    - _sass/vendor
   style: compressed
 
 compress_html:
